@@ -4,7 +4,7 @@ import time
 from tqdm import tqdm
 from openai import OpenAI
 
-client = OpenAI(api_key="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")   # 🔥 GPT-5.1 사용 계정 API 입력
+client = OpenAI(api_key="api_key")   # 🔥 GPT-5.1 사용 계정 API 입력
 
 
 #############################################
@@ -147,3 +147,4 @@ if __name__ == "__main__":
             evaluate_mednli(f)
 
     print("\n🎉 전체 평가 완료 — *_GPT5.1_evaluated.csv 생성됨 🎉")
+
